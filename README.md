@@ -66,3 +66,7 @@ db_name = classified_db
 - `php vendor/bin/phoenix rollback --dir=tables` to delete last migration from tables
 - `php vendor/bin/phoenix rollback --dir=test_data` to delete last migration from test_data
 - `php vendor/bin/phoenix rollback --all` to delete all information
+
+###### Create migrations in Terminal:
+
+Configure the virtual host along the path: `/app/client-side/web`
