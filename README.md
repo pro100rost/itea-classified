@@ -47,7 +47,7 @@
 
 Create directory `configs` in the root directory of your project. Then create file `config.ini` in this directory.
 
-File input:
+File input (for example):
 
 ```
 [database]
@@ -67,6 +67,6 @@ db_name = classified_db
 - `php vendor/bin/phoenix rollback --dir=test_data` to delete last migration from test_data
 - `php vendor/bin/phoenix rollback --all` to delete all information
 
-###### Create migrations in Terminal:
+###### Create virtual host in local machine:
 
 Configure the virtual host along the path: `/app/client-side/web`
