@@ -1,0 +1,13 @@
+.main-header {
+@include flex-center-between;
+padding: 24px 0;
+}
+
+.main-logo {
+	width: 250px;
+	height: 50px;
+	
+	img {
+		@include image-contain;
+	}
+}

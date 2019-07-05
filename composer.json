@@ -1,0 +1,21 @@
+{
+    "name": "project/classified",
+    "type": "project",
+    "require": {
+        "lulco/phoenix": "^1.1",
+        "ext-pdo": "*"
+    },
+    "license": "MTI",
+    "autoload": {
+        "psr-4": {
+            "AdminSide\\": "app/admin-side/",
+            "ClientSide\\": "app/client-side/",
+            "Common\\": "app/common/",
+            "ClientControllers\\": "app/client-side/controllers/",
+            "ClientModels\\": "app/client-side/models/",
+            "ClientRouters\\": "app/client-side/routers/",
+            "ClientViews\\": "app/client-side/views/"
+        }
+    }
+
+}

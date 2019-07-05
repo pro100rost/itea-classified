@@ -1,0 +1,25 @@
+.listing {
+
+	.card {
+		width: 22%;
+
+		.card-title {
+			font-size: 17px;
+			font-weight: 500;
+		}
+
+		.description {
+			height: 49px;
+			overflow: hidden;
+		}
+
+		img {
+			object-fit: cover;
+			height: 100%;
+		}
+	}
+}
+
+.input-price {
+	width: 100px;
+}
